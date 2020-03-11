@@ -8,7 +8,7 @@ def line(katz_deli)
    line_count="The line is currently:"
   katz_deli.each_with_index do |name, number|
    
-   line_count<< "#{number+1}. #{name}"
+   line_count<< " #{number+1}. #{name}"
   end 
   puts line_count
 end
