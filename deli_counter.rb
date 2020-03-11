@@ -22,9 +22,9 @@ end
 def take_a_number (other_deli,name)
   counter= 0
   if counter >= 0 
-    puts "Welcome, #{name}. You are number #{counter +4 } in line."
-    counter += 1
+    puts "Welcome, #{name}. You are number #{counter +1 } in line."
     katz_deli<< name
+    
   end
 end
 end
