@@ -25,7 +25,7 @@ def now_serving (katz_deli)
   elsif katz_deli.length > 0
   served= "Currently serving #{name} "
   katz_deli.each do |name|
-    puts served
+    puts served 
     
 end
 puts served
