@@ -18,5 +18,6 @@ def take_a_number (katz_deli, name)
     puts intro
   end
 end
+line
 take_a_number
 end
