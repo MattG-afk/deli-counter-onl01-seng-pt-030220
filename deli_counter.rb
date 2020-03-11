@@ -19,7 +19,8 @@ def take_a_number (katz_deli,name)
   end
 end
 def now_serving (katz_deli)
-  if katz_deli.length
-  puts
-  elsif
+  if katz_deli.length == 0
+  puts "There is nobody waiting to be served!"
+  elsif katz_deli
+  take_a_number
 end
