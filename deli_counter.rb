@@ -12,12 +12,9 @@ def line(katz_deli)
   puts line_count
 end
 def take_a_number (katz_deli,name)
-  counter= 0
+  counter+= 1
   if counter >= 0 
     puts "Welcome, #{name}. You are number #{counter} in line."
-    katz_deli.each do |counters|
-      counter << "#{counters +1}" 
-    end
     katz_deli<< name
   end
 end
