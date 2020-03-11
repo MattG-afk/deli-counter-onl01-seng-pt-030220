@@ -8,5 +8,6 @@ def line(katz_deli)
   line.each_with_index do |name, number|
     puts "The line is currently: #{number}. #{name}"
   end
+end
     
-  end
+end
