@@ -12,7 +12,7 @@ def line(katz_deli)
   puts line_count
 end
 def take_a_number (katz_deli, name)
-  intro ="Welcome #{name}. You are number #{number +1 } in line."
+  intro ="Welcome #{name}. You are number #{katz_deli.each_with_index +1 } in line."
   if katz_deli.length > 0
     puts intro
   end
