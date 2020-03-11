@@ -6,7 +6,7 @@ def line(katz_deli)
     puts "The line is currently empty."
   end
   
-def line(other_deli)
+def line_two (other_deli)
   if line.length > 0 
     puts "The line is currently: #{other_deli.index}. #{other_deli}"
   end
