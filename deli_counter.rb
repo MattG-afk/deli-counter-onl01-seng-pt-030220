@@ -21,6 +21,7 @@ def take_a_number (katz_deli, name)
   end
   puts line_count
 end
+take_a_number (katz_deli, "Ada")
 end
   
 end
