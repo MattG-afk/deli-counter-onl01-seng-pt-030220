@@ -8,7 +8,7 @@ def line(katz_deli)
   
 def line(other_deli)
   if line.length > 0 
-    puts "The line is currently: #{other_deli.index}. #{other_deli"
+    puts "The line is currently: #{other_deli.index}. #{other_deli}"
      end
   
   end
