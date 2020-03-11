@@ -13,4 +13,5 @@ def line(katz_deli)
   puts line_count
 end
 def take_a_number (katz_deli, name)
+  if
 end
