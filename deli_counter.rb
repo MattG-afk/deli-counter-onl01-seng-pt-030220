@@ -24,3 +24,4 @@ def now_serving (katz_deli)
   elsif katz_deli
   take_a_number
 end
+end
