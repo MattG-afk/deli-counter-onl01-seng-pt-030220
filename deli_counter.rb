@@ -12,10 +12,10 @@ def line(katz_deli)
   puts line_count
 end
 def take_a_number (katz_deli, name)
-  line_count = "The line is currently:"
   intro ="Welcome #{name}. You are number #{number +1 } in line."
   if katz_deli.length == 0
-    
+    katz_deli.each_with_index do |name, number|
+    line_count << "#{number +1}. #{name}"
     puts intro
   elsif katz_deli.length > 0 
   katz_deli.each_with_index do |name, number|
