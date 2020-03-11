@@ -13,6 +13,7 @@ def line(katz_deli)
 end
 def take_a_number (katz_deli, name)
   line_count = "The line is currently:"
+  
   if katz_deli.length == 0 
     puts "Welcome #{name}. You are number #{} in line."
   elsif katz_deli.length > 0 
