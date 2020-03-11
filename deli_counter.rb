@@ -17,6 +17,6 @@ def take_a_number (katz_deli,name)
     puts "Welcome, #{name}. You are number #{counter +1 } in line."
     counter += 1
   end
-  take_a_number (katz_deli,"Ada")
+  take_a_number ("Ada")
 end
 end
