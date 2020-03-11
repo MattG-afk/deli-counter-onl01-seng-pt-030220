@@ -17,7 +17,6 @@ def take_a_number (katz_deli, name)
   if katz_deli.length > 0
     puts intro
   end
-  take_a_number (katz_deli , name="Ada" )
 end
-
+take_a_number
 end
