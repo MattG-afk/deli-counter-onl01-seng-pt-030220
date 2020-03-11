@@ -18,5 +18,8 @@ def take_a_number (katz_deli, name)
   elsif katz_deli.length > 0 
   katz_deli.each_with_index do |name, number|
     line_count << "#{number +1}. #{name}"
+  end
+  puts line_count
+end
   
 end
