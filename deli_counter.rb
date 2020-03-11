@@ -7,7 +7,6 @@ def line(katz_deli)
   elsif katz_deli.length > 0 
    line_count="The line is currently:"
   katz_deli.each_with_index do |name, number|
-   
    line_count<< " #{number+1}. #{name}"
   end 
   puts line_count
@@ -16,5 +15,8 @@ def take_a_number (katz_deli, name)
   line_count = "The line is currently:"
   if katz_deli.length == 0 
     puts "The line is currently empty."
-  elsif katz_deli.length > 0
+  elsif katz_deli.length > 0 
+  katz_deli.each_with_index do |name, number|
+    line_count << "#{number +1}. #{name}"
+  
 end
