@@ -17,6 +17,7 @@ def take_a_number (katz_deli,name)
     puts "Welcome, #{name}. You are number #{counter} in line."
     katz_deli.each_with_index do |name, number|
       counter << "#{counter + 1}"
+    end
     katz_deli<< name
   end
 end
