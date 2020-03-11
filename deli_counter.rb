@@ -7,6 +7,7 @@ def line(katz_deli)
   end
 end
 line(katz_deli)
+end
   
 def line(other_deli)
   if line.length > 0 
