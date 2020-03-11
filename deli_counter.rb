@@ -12,3 +12,4 @@ def line(other_deli)
     puts "The line is currently: #{other_deli.index}. #{other_deli}"
   end
 end
+
