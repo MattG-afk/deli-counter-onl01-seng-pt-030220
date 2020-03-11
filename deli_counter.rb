@@ -6,7 +6,8 @@ def line(katz_deli)
     puts "The line is currently empty."
   elsif katz_deli.length > 0 
   katz_deli.each_with_index do |name, number|
-    puts "The line is currently: #{number+1}. #{name}"
+    puts "The line is currently:"
+    
   end
 end
     
