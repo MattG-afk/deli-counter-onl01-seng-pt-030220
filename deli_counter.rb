@@ -14,8 +14,7 @@ end
 def take_a_number (katz_deli, name)
   intro ="Welcome #{name}. You are number #{number +1 } in line."
   if katz_deli.length == 0
-    katz_deli.each_with_index do |name, number|
-    intro << "#{number +1}. #{name}"
+    
   end
   puts intro
 end
