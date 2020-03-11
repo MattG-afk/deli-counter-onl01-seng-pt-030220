@@ -19,7 +19,7 @@ def take_a_number (katz_deli, name)
   end
   puts intro
 end
-take_a_number (katz_deli, "Ada")
+take_a_number (katz_deli, name )
 end
   
 end
