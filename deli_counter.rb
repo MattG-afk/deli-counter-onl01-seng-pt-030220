@@ -15,13 +15,12 @@ def take_a_number (katz_deli, name)
   intro ="Welcome #{name}. You are number #{number +1 } in line."
   if katz_deli.length == 0
     katz_deli.each_with_index do |name, number|
-    line_count << "#{number +1}. #{name}"
-    puts intro
+    intro << "#{number +1}. #{name}"
   elsif katz_deli.length > 0 
   katz_deli.each_with_index do |name, number|
-    line_count << "#{number +1}. #{name}"
+    intro << "#{number +1}. #{name}"
   end
-  puts line_count
+  puts intro
 end
 take_a_number (katz_deli, "Ada")
 end
