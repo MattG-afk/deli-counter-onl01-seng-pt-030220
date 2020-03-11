@@ -14,7 +14,7 @@ end
 def take_a_number (katz_deli, name)
   line_count = "The line is currently:"
   if katz_deli.length == 0 
-    puts "The line is currently empty."
+    puts "Welcome #{name}. You are number #{} in line."
   elsif katz_deli.length > 0 
   katz_deli.each_with_index do |name, number|
     line_count << "#{number +1}. #{name}"
