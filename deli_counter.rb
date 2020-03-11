@@ -13,9 +13,7 @@ def line(katz_deli)
 end
 def take_a_number (katz_deli, name)
   counter= 0
-  intro ="Welcome #{name}. You are number #{counter +1 } in line."
-  if katz_deli.length > 0
-    puts intro
-  end
+  if counter >= 0 
+    puts "Welcome #{name}. You are number #{counter +1 } in line."
 end
 end
