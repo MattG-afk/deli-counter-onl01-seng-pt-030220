@@ -16,9 +16,6 @@ def take_a_number (katz_deli, name)
   if katz_deli.length == 0
     katz_deli.each_with_index do |name, number|
     intro << "#{number +1}. #{name}"
-  elsif katz_deli.length > 0 
-  katz_deli.each_with_index do |name, number|
-    intro << "#{number +1}. #{name}"
   end
   puts intro
 end
