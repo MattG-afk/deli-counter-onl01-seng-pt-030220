@@ -12,6 +12,7 @@ def line(katz_deli)
   puts line_count
 end
 def take_a_number (katz_deli,name)
+  katz_deli= "Ada"
   counter= 0
   if counter >= 0 
     puts "Welcome, #{name}. You are number #{counter +1 } in line."
