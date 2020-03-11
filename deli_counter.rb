@@ -10,7 +10,7 @@ def line(katz_deli)
    
    line_count<< "#{number+1}. #{name}"
   end 
-  line_count
+  puts line_count
 end
     
 end
