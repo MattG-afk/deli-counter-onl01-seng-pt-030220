@@ -14,7 +14,7 @@ end
 def take_a_number (katz_deli,name)
   counter= 0
   if counter >= 0 
-    puts "Welcome, #{name}. You are number #{counter +1 } in line."
+    puts "Welcome, #{name}. You are number #{counter} in line."
     counter += 1
     katz_deli<< name
   end
