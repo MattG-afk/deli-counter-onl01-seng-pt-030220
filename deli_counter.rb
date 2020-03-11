@@ -13,5 +13,8 @@ def line(katz_deli)
   puts line_count
 end
 def take_a_number (katz_deli, name)
-  if
+  line_count = "The line is currently:"
+  if katz_deli.length == 0 
+    puts "The line is currently empty."
+  elsif katz_deli.length > 0
 end
